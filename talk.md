@@ -1,10 +1,10 @@
-#Creating the Catalog, Before and After FRBR
+# Creating the Catalog, Before and After FRBR
 
 by Karen Coyle
 
-Talk given at Encuentro di Catalogacion y Metadatos; Universidad Nacional autonoma de Mexico; September 12, 2017
+Talk given at *Encuentro di Catalogacion y Metadatos*; Universidad Nacional autonoma de Mexico; September 12, 2017
 
-##Introduction
+## Introduction
 
 There is a great deal of talk today about the future of the library catalog. 
 There is also ongoing work on developing a "next generation" library bibliographic data format, 
