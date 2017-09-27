@@ -78,4 +78,56 @@ For a large library, the card catalog was also very large. A library of one mill
 
 In the late 1970's, when I began working on the University of California library automation program, the larger libraries in the system, such as Berkeley and Los Angeles, were unable to keep up with the filing of cards. At any given time these libraries were running 100,000-150,000 cards behind in their filing. That mean that a book was cataloged and placed on the shelf some three months before the book was entered into the catalog. This was clearly not acceptable for a research library. The computer catalog essentially automated filing, the final step in the catalog creation process. Except that it didn't file. And that's where the story gets interesting.
 
+## MARC in a Database
+
+MARC was developed for card printing, not for database storage. At the time that the first online catalogs were being developed, the common database management system was a relational database, which assumed that the data was organized into entities and relations. MARC is not, and therefore the conventional database design was one which stored the data in the MARC records as a single whole and developed access to the bibliographic record through keyword indexes. While the bibliographic data was itself unchanged from the card catalog era, the overall effect of this database design gave quite different results.
+
+[slide]
+
+Where the alphabetical browse through left-anchored headings provided some context for the user, the search in the database was like a black box - the user input a query and was shown a list of bibliographic records, but how the query terms caused the particular retrievals was hidden inside the functions of the database management system. The catalog had lost the contextual clues that librarians had created through the heading system.
+
+As an example, the search above for cat breeds, using the Library of Congress catalog, returns many thousands of works which are presented to the user as brief bibliographic displays. These retrieved items are not in the order that they would be in the card catalog, which would be the order by the subject heading beginning "cat breeds." 
+
+[picture]
+
+In fact, if you look at these records in a detailed view, you see that the order is not by subject:
+
+1. Cat breeds
+2. Cat breeds
+3. Cat breeds -- History
+4. Cat breeds -- Handbooks, manuals, etc.
+5. Cat breeds
+6. Cat breeds -- Thailand
+
+etc
+
+The intention of the cataloging rules is to facilitate a display that takes advantage of the context provided by the headings. In fact, cataloging staff would have wanted a display that looks more like this:
+
+<pre>
+Cat breeds
+	Arco book of cats / by Grace Pond
+	Champion cats of the world / by Catherine Ing
+	…
+Cat breeds – Handbooks, manuals, etc.
+	The complete cat owner's manual / Susie Page
+	…
+Cat breeds – History
+	Fifty years of pedigree cats [by] May Eustace & Elizabeth Towe
+	...
+Cat breeds – Thailand
+	Mǣo Thai / Sutthilak ʻAmphanwong
+</pre>
+
+The catalogers were quite unhappy with the system because it ignored a key aspect of the data that they were creating. The catalog users, however, loved it - because it provided keyword searching.
+
+## Keyword Searching, or "Words out of Context"
+
+Most of the content of the cataloging rules governs the creation of headings. These rules are quite complex but if followed turn out a consistent result. The problem is that the catalog users are not aware of those rules, and even if they were it takes years of experience to master them. In searching the card catalog, users had to try to find the right starting point for a left-to-right search. This is not only difficult, in some cases there is no way to discover all of the headings that might be of interest. For example, geographic locations can appear at the beginning, the middle or the end of a search, and may be given an inverted form in some cases:
+
+<pre>
+Boats and boating--Erie, Lake--Maps.
+Books and reading--Lake Erie region.
+Lake Erie, Battle of, 1813.
+Erie, Lake--Navigation</pre>
+
 
