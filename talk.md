@@ -36,4 +36,14 @@ Libraries moved to automated printing of cards in the very early days of compute
 During this same time, computer technology has made some significant changes; changes that are not reflected in library catalogs nor library information technology. At the time that the MARC record was first being used to print cards business applications were making use of database management systems that allowed them to store, search and modify text. Major innovations took place in database storage and techniques as well as data design and programming, such as relational database systems and object-oriented technology. After 1990 the emphasis of data sharing was around the technology of the World Wide Web and HTML, and indeed library catalogs did begin to deliver their data over the Internet within Web browsers. Documents and some data began to be coded in the eXtensible Markup Language (XML). An XML version fo the MARC record was devleoped, but it was no more than a new serialization of original MARC record - it provided no innovation in terms of data model or format. By the year 2000 the next generation of data models, RDF, was under development as the newest information technology, and the decades from 2000 to today, 2017, have shown an interest in created an open, linked information environment over the Web using RDF as its underlying abstract model.
 
 Looking at the relative timelines, those of the overall information technology space and that of the library technology space, it becomes clear that libraries have failed to make the same changes that were happening in the other communities making use of computing. The reasons behind this are undoubtedly many, from issues of budget limitations, institutional conservatism, and the historicity of the library mission. 
+I want to focus on one point that I see as a factor, and that is the transition from the card catalog to the online catalog. I can speak authoritatively about this because I must shoulder some of the blame for any errors made during this transition, as I was one of the people who designed and developed the University of California's online catalog. 
 
+## Catalogs Past
+
+A brief history of early catalogs and their designs can help us understand better how we missed some important clues about our own data when we moved from cards to computers.
+
+Early catalogs, at least the ones that begin to resemble the catalogs that we use today, were book catalogs.
+
+[picture]
+
+Important aspects of the data for book catalogs was the conservation of space - thus the use of very brief bibliographic descriptions - and the use of alphabetically arranged headings under which to file those descriptions. The headings were generally the names of authors, and sometimes also titles and subjects, but always quite brief. 
