@@ -128,6 +128,45 @@ Most of the content of the cataloging rules governs the creation of headings. Th
 Boats and boating--Erie, Lake--Maps.
 Books and reading--Lake Erie region.
 Lake Erie, Battle of, 1813.
-Erie, Lake--Navigation</pre>
+Erie, Lake--Navigation
 
+Cooking, French
+France--Antiquities
+Alps, French (France)
+French--America--History
+French American literature
+</pre>
+
+Names of people and organizations seem like they should be obvious but they also present difficulties, especially in their inverted form. Each of the  names below is correctly cataloged according to the rules, but knowing where to look requires one to know the person's culture and language:
+
+<pre>
+De la Cruz, Melissa
+Cervantes Saavedra, Miguel de
+Mao, Zedong, 1893-1976
+Arnaldur Indridason
+</pre>
+
+Users were now able to type a few words into a query, such as "lake erie," and could discover library holdings that they never would have found in the card system. This was a huge gain, but it also was a loss; a loss of context and precision. This loss is especially dire in a large catalog where the overall number of retrieved items makes it impossible for the user to browse them all and make an intelligent assessment of which are relevant. Although some library catalogs provide an advanced search that searches in specific fields, such as personal name or title, users tend to prefer the default "single search box" which they have learned to rely on thanks to Internet search engines. Doing a search in a single search box for the word "Darwin" brings up such diverse titles as:
+
+<pre>
+Darwin
+• Darwin; A Graphic Biography : the Really
+Exciting and Dramatic Story of A Man Who
+Mostly Stayed at Home and Wrote Some Books
+• Darwin; Business Evolving in the Information Age
+• Emma Darwin, A Century of Family Letters,
+1792-1896
+• Java Cookbook
+• Canals and Rivers of Britain
+• The Crimson Hair Murders
+• Darwin's Radio
+</pre>
+
+Some of these are retrieved on author names, such as "Darwin L. Teihet" while others reflect other uses of the word. 
+
+Keyword searching breaks the organization that should be created by the headings. The question is: how can we get that back? How can we give users both a simple search but also a rich and helpful retrieved set? 
+
+In fact, that was one of the motivations behind FRBR.
+
+## FRBR: What You Should Know
 
