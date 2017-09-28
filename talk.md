@@ -184,3 +184,23 @@ Timeline
 2017 -Today
 </pre>
 
+The FRBR story began at an IFLA meeting in Stockholm in 1990, where representatives of national libraries had gathered to discuss the requirements for shared cataloging. The general agreement there was the current requirements for a national cataloging record were too expensive for the libraries to adhere to. They group decided on a project with the following goals:
+
+1. Develop a framework for understanding bibliographic record
+purposes
+2. Recommend basic level of functionality for national library
+bibliographic records
+3. Develop core-level standard to reduce cataloging costs
+4. Ensure that records meet user needs
+
+From this it is clear why the effort was called "Functional Requirements for Bibliographic Records."
+
+The study group was formed in 1992 with a document entitled "Terms of Reference". That document was developed by Tom Delsey of the National Library of Canada and Henriette Avram of the Library of Congress. The terms of reference gave the charge to the working group and defined its deliverables. Oddly, those deliverables differ considerably in their wording from the goals of the 1990 meeting.
+
+Terms of Reference Deliverables
+
+1. A framework with a range of entities and relationships
+2. Define functions for entities
+3. Identify attributes for entities
+4. Define a national bibliographic record
+
