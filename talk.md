@@ -204,3 +204,34 @@ Terms of Reference Deliverables
 3. Identify attributes for entities
 4. Define a national bibliographic record
 
+Without stating it explicitly, the terms of reference given to the working group had the goal of solving the "relational database problem" of MARC - the fact that the MARC record was not designed in such a way that it could fit into the entity-relation model of relational database design. The terms used in the terms of reference came directly from the relational design work: "entities", "relationships" and "attributes." In fact the terms of reference cited a well-known 1984 book, '''Data Analysis; the Key to Database Design''', by Richard Perkinson, for the definition of the terms. The final report of the FRBR group affirmed this in its section on methodology:
+
+  The methodology used in this study is based on an entity analysis technique that is used in the development of conceptual models for relational database systems.
+  
+Moving to an entity-relation model for bibliographic data was not in any way a bad idea, and had that model prevailed early in the 1990's decade we would mostly likely have a very different library systems environment than we have today. However, the FRBR final report, issued in 1998 and revised in 2009, still has not been reflected in library systems, and the era of relational databases is now firmly behind us. In addition, there is some confusion as to whether FRBR is intended as a step to a new data model, or whether it is an abstract expression of the bibliographic universe.
+
+Two people who participated both in the FRBR study group and in the development of RDA express very different views. Barbara Tillett, in her 2005 Library of Congress publication on FRBR says:
+
+  “FRBR is not a data model. FRBR is not a metadata
+scheme. FRBR is not a system design structure. It is a
+conceptual model of the bibliographic universe.” 
+
+Tom Delsey, one of the co-authors of the terms of reference for FRBR and a member of both FRBR and the main editor of RDA, produced a document showing RDA's employment of FRBR concepts as an actual database design.
+
+[page]
+
+Within the FRBR document itself there are both statements that the model is conceptual as well as lists of entities and attributes and E-R diagrams that look very much like data models. Exactly what we should take away from FRBR and how it should influence the future of bibliographic data remains unclear. Yet FRBR does give us some positive steps toward a post-MARC future. The use of actual entities for persons and subjects can be used to create richer information about these entities than the identifying strings that we are limited to today. For example, a person entity can have biographical information as well as relationships with other entities. And FRBR introduces potentially actionable bibliographic relationships which can be much more helpful in a catalog than the mere informative notes that we mainly have today. Once we begin using these relationships in systems they may stimulate ideas for other relationships that could be added such as highlighting intellectual influence between works through citations and references.
+
+What FRBR has not yet given us is an alternative to the string-based data that preponderates in library cataloging. It also has not resulted in a consensus for future catalog design. Both of these, however, are be studied in projects that are looking at the W3C's RDF model for library data.
+
+Before moving on I should mention the lastest FRBR development, that of the FRBR Library Reference Model, or FRBR-LRM, and RDA. The FRBR-LRM is proposed as a consolidation of three "FR" models: FRBR, FRAD (authority data), and FRSAD (subject data). Unfortunately, the FRBR-LRM is even further from the library user's terminology, using latin terms '''res''' and '''nomen''' for '''thing''' and '''name'''. Also, the position of nomen in the model perpetuates the idea of strings as entities, something we should move away from as much as possible. RDA embodies the conceptual model of FRBR and will soon include some changes introduced in FRBR-LRM. We don't really know how the use of FRBR entities could or will change library cataloging, however, because RDA is currently being coded in MARC and therefore the entities are poorly represented, if at all. 
+
+## Moving on to RDF
+
+RDF is the W3C standard for web-based data that has a very simple underlying model of entities and relationships, although it differs  from the relational E-R model, for which it is considered a replacement. The entities and relationships provided by FRBR belong to that earlier model but provide a stepping stone to the RDF model. RDF could help us integrate library resources with other resources on the Web because it uses Web-based identifiers for all data. To take advantage of this, however, we have to embrace data that is not dependent on string-based identities, and this is a real change in how we create and store key bibliographic information.
+
+BIBFRAME is a project initiated at the Library of Congress that uses RDF. It is also related to FRBR but does not entirely embrace the FRBR model. In fact, many of the entities that are defined in BIBFRAME are ones that could easily have been developed even if FRBR had not existed because they are the obvious contents of bibliographic data: resources, agents, topics. 
+
+Unfortunately, the current emphasis in BIBFRAME development is in the translation of MARC records into BIBFRAME. This means that there is little innovation in the content of bibliographic records, so once again we are carrying forward the same data from older techbnology to a new technology and therefore not taking advantage of the promises that the newer technology offers. The phrase often used is "old wine in new bottles" but that actually sounds more positive than "old data in a new serialization." 
+
+BIBFRAME also has not yet embraced interoperability with non-library resources. With RDF, interoperability is often achieved by re-using vocabularies that are shared
