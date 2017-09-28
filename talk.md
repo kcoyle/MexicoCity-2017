@@ -170,3 +170,17 @@ In fact, that was one of the motivations behind FRBR.
 
 ## FRBR: What You Should Know
 
+I've always had trouble understanding FRBR. There seem to be some internal contradictions that just block my thought processes when I try to imagine a FRBR world. It helps to look at the history of FRBR, and how it came into being. Here is a general timeline:
+
+<pre>
+Timeline
+1990 – Stockholm meeting (IFLA)
+1992 – Terms of reference completed
+1994 – First draft for comment
+1998 – Final draft
+2009 – Current draft
+2013 – RDA was implemented referencing FRBR
+2016 – FRBR-Library Reference Model
+2017 -Today
+</pre>
+
