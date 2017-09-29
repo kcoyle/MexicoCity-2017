@@ -242,4 +242,28 @@ There are some general areas that we need to think about when we address the fut
 
 ### It's all technology (except the users)
 
-Every generation of library catalogs has been a technology, from those clay tablets to book catalogs to cards and now the computer. Both FRBR and RDA make statements that they are "technology neutral" - but they are not. FRBR made use of the concepts of database management technology of the 1980's and 1990's and that influenced its design. RDA continues to describe the creation of left-anchored strings
+Every generation of library catalogs has been a technology, from those clay tablets to book catalogs to cards and now the computer. Both FRBR and RDA make statements that they are "technology neutral" - but they are not. FRBR made use of the concepts of database management technology of the 1980's and 1990's and that influenced its design. RDA continues to describe the creation of left-anchored strings that made up the structure of the card catalog. Unless modelers are aware of the technology behind their designs, and the assumptions they are using for development, they risk being technology ignorant. 
+
+The aspect of deisgn that is not technology is the human users. These users and their needs should be the primary focus of any standards. FRBR claimed to be built around user needs in the form of the user tasks that it defined. Those user tasks were not well-defined, however. Out of the 142 pages of the FRBR final report, one half of one page was dedicated to defining the user tasks "find, identify, select, and obtain." Although numerous pages of tables that matched user tasks to attributes, nowhere did the report state '''how''' the attributes fulfilled those tasks. 
+
+FRBR "find" is particularly insufficient to guide any type of metadata or systems development. The FRBR final report defines "find" as:
+
+  "to find entities that correspond to the user’s stated search criteria (i.e., to locate either a single entity or a set of entities in a file or database as the result of a search using an attribute or relationship of the entity);"
+  
+The FRBR-LRM gives this definition:
+
+  "To bring together
+information about
+one or more
+resources of
+interest by
+searching on any
+relevant criteria"
+
+As a starting point either of these defintions might be acceptable, but there is so much more that needs to be said before any intelligent modeling can take place that would support this activity. What will be the basis of searching? What will determine result sets? Will there be one or more ordering of results? What options will be presented for exploration within the bibliographic universe?
+
+Another key question is whether the library's responsibility truly ends at "obtain." Locating and obtaining a document or resource is only the beginning of the purpose of providing those resources to begin with. Some years ago a grant project looked at the uses of resources among faculty members. The results were broken into four activity types: discover, gather, share, and create. Of these, only a small portion of the sub-activities under "discover" are covered by the FRBR user tasks. Others are important tasks such as keeping current in one's field, sharing discovery with collaborators, and using the results of recommender systems. Not all of the tasks in the study might directly involve the library, but clearly good library service will support as many information tasks as possible. 
+
+[diagram & citation]
+
+
