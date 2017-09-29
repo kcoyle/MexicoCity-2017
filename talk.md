@@ -234,4 +234,12 @@ BIBFRAME is a project initiated at the Library of Congress that uses RDF. It is 
 
 Unfortunately, the current emphasis in BIBFRAME development is in the translation of MARC records into BIBFRAME. This means that there is little innovation in the content of bibliographic records, so once again we are carrying forward the same data from older techbnology to a new technology and therefore not taking advantage of the promises that the newer technology offers. The phrase often used is "old wine in new bottles" but that actually sounds more positive than "old data in a new serialization." 
 
-BIBFRAME also has not yet embraced interoperability with non-library resources. With RDF, interoperability is often achieved by re-using vocabularies that are shared
+BIBFRAME also has not yet embraced interoperability with non-library resources. With RDF, interoperability is often achieved by re-using vocabularies that are shared by other communities. BIBFRAME's vocabulary is unqiue to BIBFRAME and therefore exists as a silo. There are ways to connect vocabularies for the sharing of data, and hopefully that is in BIBFRAME's future.
+
+## The Future Catalog: Many Questions, Few Answers
+
+There are some general areas that we need to think about when we address the future of library catalogs. These are some of them, but surely not all.
+
+### It's all technology (except the users)
+
+Every generation of library catalogs has been a technology, from those clay tablets to book catalogs to cards and now the computer. Both FRBR and RDA make statements that they are "technology neutral" - but they are not. FRBR made use of the concepts of database management technology of the 1980's and 1990's and that influenced its design. RDA continues to describe the creation of left-anchored strings
