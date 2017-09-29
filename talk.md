@@ -266,4 +266,8 @@ Another key question is whether the library's responsibility truly ends at "obta
 
 [diagram & citation]
 
+This Mellon grant is not the only study of its kind, but the picture provided gives one a quick visual comparison to the overly simple user tasks of FRBR.
 
+### From scarcity to abundance
+
+Early libraries were valued for their holdings in a time when printed materials were rare and quite expensive. While libraries do hold some rare and precious materials, and their collections far exceed what one could amass as a personal library, the fact of today is that we have an abundance of documents and other information sources. It is no longer reasonable for anyone to approach a research collection without some selecting and filtering mechanism. Too often, searches in library catalogs produce a retrieved set that is much too large for human processing.
