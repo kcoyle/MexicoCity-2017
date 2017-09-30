@@ -212,7 +212,7 @@ Moving to an entity-relation model for bibliographic data was not in any way a b
 
 Two people who participated both in the FRBR study group and in the development of RDA express very different views. Barbara Tillett, in her 2005 Library of Congress publication on FRBR says:
 
-  “FRBR is not a data model. FRBR is not a metadata
+   “FRBR is not a data model. FRBR is not a metadata
 scheme. FRBR is not a system design structure. It is a
 conceptual model of the bibliographic universe.” 
 
